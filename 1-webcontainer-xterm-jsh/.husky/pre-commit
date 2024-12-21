@@ -1,0 +1,4 @@
+pnpm lint:fix
+pnpm format:write | grep -v "unchanged"
+git add --all
+
