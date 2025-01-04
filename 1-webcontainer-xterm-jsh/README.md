@@ -1,29 +1,52 @@
-# Create T3 App
+# chat2code-tutorial
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+[English](./README.md) | [中文](./README.zh.md)
 
-## What's next? How do I make an app with this?
+This is a tutorial project based on T3 Stack, aiming to recreate the core functionality of bolt.new and help readers understand how to implement a chat-to-code application in the browser.
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+## Current Progress
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+We are currently in Phase 0 (Environment Validation and Infrastructure), having completed:
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+- [x] WebContainer initialization
+- [x] File system operations
+- [x] Terminal functionality
+- [x] Package manager support
 
-## Learn More
+Follow HackerQED on [Jike](https://m.okjike.com/users/C4A32452-F5EE-48CF-B522-24D68EEA1662)/Twitter ([English](https://x.com/HackerQED)/[Chinese](https://x.com/HackerQEDCN)) for latest updates
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+## How to Learn
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+```bash
+git clone https://github.com/HackerQED/chat2code-tutorial.git
+cd chat2code-tutorial/1-webcontainer-xterm-jsh
+pnpm i
+pnpm dev
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+# visit http://localhost:3000/playground
+```
 
-## How do I deploy this?
+![assets/1-demo.png](assets/1-demo.png)
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+## Next Steps
+
+This is a progressive tutorial project, and we will implement the complete functionality through multiple phases:
+
+- Phase 0: Environment Validation and Infrastructure [Current Phase]
+- Phase 1: Core Functionality Implementation
+- Phase 2: AI Integration
+- Phase 3: State Management and Data Flow
+- Phase 4: User Experience Optimization
+
+Each phase will have detailed documentation and runnable code examples.
+
+## Tech Stack
+
+- Frontend Framework: Next.js (T3 Stack)
+- AI Integration: OpenAI API
+- Development Environment: WebContainer API
+- Editor: CodeMirror
+- Terminal: xterm.js
+- State Management: Zustand
+- UI Components: shadcn/ui
+- Styling: Tailwind CSS

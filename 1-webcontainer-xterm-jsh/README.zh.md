@@ -6,12 +6,12 @@
 
 ## 当前进展
 
-我们目前正处于 Phase 1 （核心功能实现，文件系统操作）阶段，主要完成了：
+我们目前正处于 Phase 0（环境验证与基础设施）阶段，主要完成了：
 
-- [x] 文件系统 API 接入
-- [x] 实现前端文件树
-
-下一步我们将实现 AI 交互，通过 chat 修改工作区的代码。
+- [x] WebContainer 初始化
+- [x] 文件系统操作
+- [x] 终端功能
+- [x] 包管理器支持
 
 关注 HackerQED 的[即刻](https://m.okjike.com/users/C4A32452-F5EE-48CF-B522-24D68EEA1662)/推特账号（[英文](https://x.com/HackerQED)/[中文](https://x.com/HackerQEDCN)），获得最新进展
 
@@ -19,21 +19,21 @@
 
 ```bash
 git clone https://github.com/HackerQED/chat2code-tutorial.git
-cd chat2code-tutorial/3-fs-context-menu
+cd chat2code-tutorial/1-webcontainer-xterm-jsh
 pnpm i
 pnpm dev
 
 # visit http://localhost:3000/playground
 ```
 
-![assets/3-demo.png](assets/3-demo.png)
+![assets/1-demo.png](assets/1-demo.png)
 
 ## 下一步计划
 
 这是一个渐进式的教学项目，我们将通过多个阶段逐步实现完整功能：
 
-- Phase 0: 环境验证与基础设施
-- Phase 1: 核心功能实现【当前阶段】
+- Phase 0: 环境验证与基础设施 【当前阶段】
+- Phase 1: 核心功能实现
 - Phase 2: AI 交互
 - Phase 3: 状态管理与数据流
 - Phase 4: 用户体验优化
